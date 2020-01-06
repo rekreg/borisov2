@@ -1,6 +1,8 @@
-<?
+<?php
 header("Content-type: file/octet-stream");
+
 header("Content-disposition: attachment; filename=\"mytext.txt\"");
+
 ?>
 <!DOCTYPE HTML>
 <html>

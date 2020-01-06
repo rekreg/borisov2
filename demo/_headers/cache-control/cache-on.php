@@ -1,5 +1,5 @@
 <?
-header("Cache-control: max-age=600");
+//header("Cache-control: max-age=600");
 //header("Expires: " . date("r")+600);
 ?>
 <!DOCTYPE HTML>

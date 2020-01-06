@@ -1,4 +1,4 @@
-<?
+<?php
 header("Content-type: text/html; charset=utf-8");
 ?>
 <!DOCTYPE HTML>
@@ -6,7 +6,7 @@ header("Content-type: text/html; charset=utf-8");
 <html>
 <head>
 	<title>Что-то по русски</title>
-	<!--meta http-equiv='Content-Type' content='text/html;charset=windows-1251'/-->
+	<meta http-equiv='Content-Type' content='text/html;charset=windows-1251'/>
 </head>
 
 <body>
