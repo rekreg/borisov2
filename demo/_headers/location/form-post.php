@@ -1,4 +1,6 @@
-<?
+<?php
+$name = "";
+	$age = "";
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	// Форма передавала информацию
 	$name = strip_tags($_POST["name"]);
@@ -12,14 +14,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	// ... 
 	
 	// перезапрос формы методом GET
-	//header("Location: " . $_SERVER["PHP_SELF"]);
-	//exit;
+	/*header("Location: " . $_SERVER["PHP_SELF"]);
+	exit;*/
 }
-else {
+elseif(isset($_COOKIE["userName"])) {
 	// Чтение куки
 	$name = strip_tags($_COOKIE["userName"]);
 	$age = $_COOKIE["userAge"] * 1;
-}
+} 
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 
@@ -39,7 +41,7 @@ else {
 	<input type="text" name="age" value="<?=$age?>"><br>
 	<input type="submit" value="Передать">
 </form>
-<?
+<?php
 if ($name and $age) {	
 	if ($name and $age) {
 		echo "<h1>Привет, $name</h1>";
