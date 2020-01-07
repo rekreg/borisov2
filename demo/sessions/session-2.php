@@ -1,4 +1,5 @@
-<? session_start();
+<?php
+session_start();
 $name = $_SESSION["name"];
 $age = $_SESSION["age"];
  ?>

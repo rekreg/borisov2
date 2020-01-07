@@ -1,4 +1,4 @@
-<?
+<?php
 session_start();
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -8,9 +8,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	$_SESSION["name"] = $name;
 	$_SESSION["age"] = $age;
 }
-else {
+elseif(isset($_SESSION["name"]) && isset($_SESSION["age"])) {
 	$name = $_SESSION["name"];
 	$age = $_SESSION["age"];
+} else {
+	$name = "";
+	$age = "";
 }
 ?>
 <!DOCTYPE HTML>
