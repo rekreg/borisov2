@@ -1,3 +1,22 @@
+<?php
+session_start();
+if(!isset($_SESSION['test']) and !isset($_POST['q'])) {
+	// Если первый запуск теста, то инициализируем переменные
+	$q = 0; // Номер текущего вопроса
+	$title = 'Пройдите тест';
+}
+elseif($_SERVER["REQUEST_METHOD"] == "POST") {
+	// Создаем сессионную переменную test, содержащую массив ответов
+	if($_POST['q'] != '1')
+		$_SESSION['test'][] = $_POST['answer'];
+	$q = $_POST['q'];
+	$title = $_POST['title'];
+} else {
+	$q = 0; // Номер текущего вопроса
+	$title = 'Пройдите тест';
+}
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,8 +33,8 @@
 		<table width="100%">
 			<tr>
 				<td align="center">
-					<h1>...</h1>
-					<p><a href='/index.php'>Прервать тест и вернуться на сайт</a></p>
+					<h1><?=$title?></h1>
+					<p><a href='index.php'>Прервать тест и вернуться на сайт</a></p>
 				</td>
 			</tr>
 		</table>
@@ -26,6 +45,17 @@
 <tr>
 	<td>
 		<!-- Область основного контента -->
+<?php
+// В зависимости от номера вопроса,
+// подключаем соответствующий файл с вопросами 
+	switch ($q) {
+		case 0: include 'start.php'; break; 
+		case 1: include 'q1.php'; break;
+		case 2: include 'q2.php'; break;
+		case 3: include 'q3.php'; break;
+    default: include 'result.php'; 
+	}
+?>
 		<!-- Область основного контента -->
 	</td>
 </tr>
