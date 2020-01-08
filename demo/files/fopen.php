@@ -2,11 +2,11 @@
 
 $f = fopen("data.txt", "r");
 $lines = [];
-while($line = fgets($f)) {
-	$lines[] = $line;
+while( !feof($f) ) {
+	$bytes[] = fgetc($f);
 }
 fclose($f);
 
 echo "<pre>";
-print_r($lines);
+print_r($bytes);
 echo "</pre>";
