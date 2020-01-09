@@ -1,6 +1,8 @@
 <?php 
   include 'inc/headers.inc.php'; 
 	include 'inc/cookie.inc.php';
+	const PATH_LOG = 'log/log_data.txt';
+	include 'inc/log.inc.php';
 ?>
 <!DOCTYPE html>
 <html>
@@ -60,6 +62,9 @@
       <li><a href='index.php?id=gbook'>Гостевая книга</a>
       </li>
       <li><a href='eshop/catalog.php'>Магазин</a>
+      </li>
+      <li>
+      	<a href='index.php?id=log'>Журнал посещений</a>
       </li>
     </ul>
     <!-- Навигация -->
