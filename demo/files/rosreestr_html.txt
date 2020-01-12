@@ -1,0 +1,1331 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <!-- Вставьте этот фрагмент в раздел <head> кода страницы как можно ближе к началу: -->
+<!-- Google Tag Manager -->
+<script>
+  (function(w, d, s, l, i) {
+    w[l] = w[l] || [];
+    w[l].push({
+      'gtm.start': new Date().getTime(),
+      event: 'gtm.js'
+    });
+    var f = d.getElementsByTagName(s)[0],
+      j = d.createElement(s),
+      dl = l != 'dataLayer' ? '&l=' + l : '';
+    j.async = true;
+    j.src =
+      'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+    f.parentNode.insertBefore(j, f);
+  })(window, document, 'script', 'dataLayer', 'GTM-NSMM62K');
+
+</script>
+<!-- End Google Tag Manager -->
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+  <meta name="description" content="Заказать электронную выписку из ЕГРН онлайн Росреестр. По любому адресу по Москве, Московской области, а также по  всей России">
+
+
+  <meta name="keywords" content="Выписка из ЕГРН, выписка из ЕГРП, заказать Выписку из ЕГРН, Выписка из ЕГРН онлайн, Выписка из Росреестра" />
+
+  <title>Электронная Выписка из ЕГРН Онлайн заказать Росреестр</title>
+
+  <link rel="icon" href="https://rosreestr-info.ru/favicon.ico" type="image/x-icon" />
+
+  <link rel="shortcut icon" href="https://rosreestr-info.ru/favicon.ico" type="image/x-icon" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <!-- Bootstrap style -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+  <!-- Bootstrap Theme style -->
+  <link href="https://stackpath.bootstrapcdn.com/bootswatch/3.3.7/flatly/bootstrap.min.css" rel="stylesheet">
+
+  <!--Form Validation-->
+  <link rel="stylesheet" href="js/formvalidation-dist-v0.8.1/dist/css/formValidation.min.css" />
+
+  <!-- Awesome-bootstrap-checkbox -->
+  <link href="css/awesome-bootstrap-checkbox.css" rel="stylesheet">
+
+  <!--ДаДата стиль-->
+  <link href="https://cdn.jsdelivr.net/npm/suggestions-jquery@18.11.1/dist/css/suggestions.min.css?version=3" type="text/css" rel="stylesheet" />
+
+
+
+  <!--FONT AWESOME 5 -->
+  <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"> -->
+
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+  <style type="text/css">
+    /*
+.has-feedback .form-control-feedback {
+top: 25px;
+right: 0;
+}
+
+.form-horizontal .has-feedback .form-control-feedback {
+top: 0;
+right: 15px;
+}
+*/
+
+  </style>
+
+
+
+
+
+</head>
+
+<body>
+  <!-- Также вставьте сразу после открывающего тега <body> следующий фрагмент: -->
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NSMM62K" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+  
+  <div class="container-fluid" style="padding: 0px;">
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="alert alert-dismissible alert-danger" style="margin: 0px; border-radius: 0px;">
+				<button type="button" class="close" data-dismiss="alert">&times;</button>
+
+
+				<h4 class="text-center"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> Внимание!</h4>
+
+
+
+				<p class="text-center">
+					В период с 18:00 МСК 31.12.2019 г. по 23:00 МСК 08.01.2020 г. Росреестр будет проводить плановые технические работы. <br>
+				
+					Все заказанные выписки будут отправлены после окончания технических работ.
+					 <br>
+						Приносим Вам наши извинения за доставленные неудобства! <br>
+					
+				</p>
+
+
+
+			</div>
+		</div>
+
+	</div>
+
+
+
+
+</div>
+
+<nav class="navbar navbar-default" style="border-radius:0px; margin-bottom: 0px; ">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<!--
+      <a class="navbar-brand" href="https://rosreestr-info.ru/for_address.php" style="color: #bed7ee"><span class="glyphicon glyphicon-share-alt"></span><span class="glyphicon glyphicon-file"></span> Росреестр ИНФО </a>
+		
+		
+-->
+			<a class="navbar-brand" href="https://rosreestr-info.ru/for_address.php"><img src="https://rosreestr-info.ru/img/logo_a.png">
+			</a>
+
+
+		</div>
+
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+
+
+			<ul class="nav navbar-nav">
+				<li class='active'><a href="https://rosreestr-info.ru/for_address.php">Адрес объекта</a></li>
+				<li ><a href="https://rosreestr-info.ru/for_number.php">Кадастровый номер </a></li>
+				<!--       <li ><a href="https://rosreestr-info.ru/for_right.php">№ Права</a></li> -->
+			</ul>
+
+
+
+			<ul class="nav navbar-nav navbar-right">
+
+				<li ><a href="https://rosreestr-info.ru/faq.php"><span class="glyphicon glyphicon-question-sign"></span> FAQ</a></li>
+
+
+				<li ><a href="https://rosreestr-info.ru/check_order_status.php"> Статус Заказа</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+
+
+  <!--
+<div class="jumbotron jumbotron_image text-center" style="">
+
+  <h2>
+      Проверьте Собственника и Обременения.
+
+  <br> Закажите Выписку из ЕГРН!
+
+    </h2>
+
+</div>
+-->
+
+
+<div class="jumbotron jumbotron_image text-center" style="">
+
+
+
+    <div class="row">
+
+          <div class="col-sm-12">
+           
+           
+           
+<!--
+            <div class="highlight_block">
+
+            <h3>
+            <i class="fa fa-exclamation-triangle"></i>  Узнайте всё о Недвижимости!
+
+  Закажите выписку  <span class="hidden-xs">из</span> ЕГРН на <span class="hidden-xs">Ваш  </span>  Email
+
+          </h3>
+
+          </div>
+          
+-->
+          
+          
+<div class="alert alert-warning animated tada" style="padding: 5px; display: inline-block; color: #333; margin-bottom: 15px;">
+  <h4 style="margin: 0px;"> <i class="fa fa-exclamation-triangle"></i>  Узнайте всё о Недвижимости!
+
+  Закажите выписку  <span class="hidden-xs">из</span> ЕГРН на <span class="hidden-xs">Ваш  </span>  Email</h4>
+</div>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+         </div>
+
+
+   </div>
+
+  <div class="row">
+
+  	<div class="col-md-3 col-sm-6 col-xs-6">
+
+
+      <div class="panel panel-default my-panel">
+        <div class="panel-body">
+         <i class="fa fa-check-square-o"></i>
+        Кто Собственник
+       </div>
+     </div>
+
+
+    </div>
+
+    <div class="col-md-3 col-sm-6 col-xs-6">
+
+
+       <div class="panel panel-default my-panel">
+         <div class="panel-body">
+        <i class="fa fa-check-square-o"></i>
+         Обременения
+        </div>
+      </div>
+
+     </div>
+
+    <div class="col-md-3 col-sm-6 col-xs-6">
+
+      <div class="panel panel-default my-panel">
+        <div class="panel-body">
+         <i class="fa fa-check-square-o"></i>
+        Наличие Арестов
+       </div>
+     </div>
+
+    </div>
+
+    <div class="col-md-3 col-sm-6 col-xs-6">
+
+      <div class="panel panel-default my-panel">
+        <div class="panel-body">
+        <i class="fa fa-check-square-o"></i>
+         Наличие Залога
+       </div>
+     </div>
+
+   </div>
+
+
+  </div>
+
+
+  <div class="row">
+
+   <div class="col-md-3 col-sm-6 col-xs-6">
+
+      <div class="panel panel-default my-panel">
+        <div class="panel-body">
+
+         <i class="fa fa-check-square-o"></i>
+        Кадастровый Номер
+       </div>
+     </div>
+
+    </div>
+
+    <div class="col-md-3 col-sm-6 col-xs-6">
+
+
+       <div class="panel panel-default my-panel">
+         <div class="panel-body">
+        <i class="fa fa-check-square-o"></i>
+         Кадастровую&nbsp;<span class="hidden-sm hidden-md hidden-lg">цену</span>
+         <span class="hidden-xs">стоимость</span>
+
+        </div>
+      </div>
+
+     </div>
+
+    <div class="col-md-3 col-sm-6 col-xs-6">
+
+      <div class="panel panel-default my-panel">
+        <div class="panel-body">
+        <i class="fa fa-check-square-o"></i>
+          Общую Площадь
+       </div>
+     </div>
+
+
+    </div>
+
+    <div class="col-md-3 col-sm-6 col-xs-6">
+
+
+     <div class="panel panel-default my-panel">
+       <div class="panel-body">
+      <i class="fa fa-check-square-o"></i>
+         Наличие Запретов
+      </div>
+    </div>
+
+   </div>
+
+
+  </div>
+
+
+
+  <!-- <div class="row">
+
+        <div class="col-sm-12">
+          <span class="label label-danger" style="font-size: 95%; font-weight: 500; border-radius: 0px; background-color: gold; color: black">
+            Закажите Выписку из ЕГРН на Ваш <i class="fas fa-paper-plane"></i> Email!</span>
+
+
+       </div>
+
+
+ </div> -->
+
+
+
+  </div>
+
+
+  <div class="container">
+
+
+
+
+
+
+
+
+
+
+    <div class="row">
+
+      <section class="col-lg-12">
+        <h1 class="text-center">Заказ электронной Выписки из ЕГРН Онлайн <sup><a data-toggle="modal" data-target="#about_egrn"><span class="glyphicon glyphicon-info-sign"></span></a></sup></h1>
+
+
+        <!--<div style="height: 35px; font-size: 110%; padding-top: 5px;" class=" text-warning bg-primary text-center">Проверьте собственника и наличие обременений</div>-->
+
+
+      </section>
+
+
+
+
+
+    </div>
+    <!-- row 0 -->
+
+
+
+
+
+
+    <div class="row">
+      <section class="col-xs-12">
+
+        <br>
+        <form id="search_form" class="form-horizontal" action="/for_address.php" method="post">
+          <fieldset>
+            <!--
+<legend class="text-center" style="border-top: 1px solid #D9D9D9;">
+  Поиск объекта недвижимости
+
+</legend>
+-->
+
+            <div class="form-group">
+
+
+              <div class="col-lg-12">
+
+                <div id="address_kadastr" class="btn-group btn-group-justified">
+
+                  <a href="for_address.php" class="btn btn-info active">
+
+                    <span class="visible-lg visible-md visible-sm">
+                      <i class="fa fa-map-marker" aria-hidden="true"></i>
+
+                      Адрес объекта:
+                    </span>
+
+                    <span class="visible-xs">
+                      <i class="fa fa-map-marker" aria-hidden="true"></i>
+
+                      Адрес :
+                    </span>
+
+                  </a>
+
+                  <a href="for_number.php" class="btn btn-info">
+
+
+
+                    <span class="visible-lg visible-md visible-sm">
+                      <i class="fa fa-barcode" aria-hidden="true"></i>
+                      Кадастровый номер:
+                    </span>
+                    <span class="visible-xs">
+                      <i class="fa fa-barcode" aria-hidden="true"></i>
+                      Кадастровый:
+                    </span>
+
+
+
+                  </a>
+
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+
+
+
+
+            <div class="form-group" id="form_search_by_address">
+
+              <div class="col-lg-12">
+                <input type="text" class="form-control" id="input_address" name="input_address" placeholder="Например: г. Москва, ул. Грина, дом 32, кв. 110" value="">
+
+              </div>
+
+            </div>
+
+            <div id="search_btn" class="form-group">
+
+              <div class="col-lg-12">
+                <div class="text-center">
+
+                  <button id="submit_button" type="submit" class="btn btn-primary">
+                    <span class="glyphicon glyphicon-search"></span>
+                    Поиск недвижимости
+                  </button>
+
+
+                  <button id="submit_rosreestr" class="btn btn-primary" disabled="disabled" style="display: none;">
+                    <i class="fa fa-spinner fa-spin"></i> Запрос в Росреестре
+                  </button>
+                </div>
+
+              </div>
+            </div>
+
+
+
+
+
+
+          </fieldset>
+        </form>
+
+      </section>
+    </div>
+    <!-- row 1 -->
+
+
+
+    <div id="table_with_objects">
+
+
+    </div>
+
+    <br><br>
+
+
+
+
+    <div class="row">
+
+  <div class="col-lg-4 col-md-4 col-sm-4 text-center">
+
+
+    <div class="well well-lg my_well">
+      <strong> Стоимость <span class="hidden-sm">Выписки:</span> </strong>
+    <!--  <br class="hidden-lg hidden-md hidden-xs">-->
+     <br>
+      200 руб.
+    </div>
+
+  </div>
+
+  <div class="col-lg-4 col-md-4 col-sm-4 text-center">
+    <div class="well well-lg my_well">
+      <strong> <i class="fa fa-clock-o" aria-hidden="true"></i> Готовность:</strong>
+     <!-- <br class="hidden-lg hidden-md hidden-xs">-->
+     <br>
+      от 1 часа до 3 раб. дней <a data-toggle="modal" data-target="#about_delivery" style="border-bottom: 1px dotted #18bc9c; cursor: pointer;"><span class="glyphicon glyphicon-info-sign"></span></a>
+    </div>
+  </div>
+
+  <div class="col-lg-4 col-md-4 col-sm-4 text-center">
+    <div class="well well-lg my_well">
+      <strong> <i class="fa fa-map"></i> Сервис работает: </strong>
+       <!--<br class="visible-sm"> -->
+       <br>
+       По всей России
+    </div>
+  </div>
+  
+ 
+
+</div> <!-- row 5 -->
+
+
+ <div class="row">
+   <div class="col-xs-12 text-center">
+   
+   
+   
+    <div class="well well-lg my_well" style="background-color: #e6e6e6">
+      <strong> <i class="fa fa-envelope-open-o" aria-hidden="true"></i> Получение выписок: </strong>
+       <br>
+     Вы получаете на Email (Электронную выписку в формате PDF + архив с Электронной подписью Росреестра).
+    </div>
+    
+    
+ <!--   <div class="alert alert-info" style="background-color: #cccccc"> 
+  <h4><i class="fa fa-envelope-open-o" aria-hidden="true"></i> Получение выписок:</h4>  
+        <p>Отправляем на Ваш email (выписку в формате PDF + архив с Электронной подписью Росреестра).</p>
+</div>-->
+    
+    
+  </div>
+</div>
+
+
+<div class="row">
+
+  <section class="col-lg-12">
+    <h2 class="text-center">Образцы выписок из ЕГРН</h2>
+    <br>
+  </section>
+
+
+
+
+</div> <!-- row 4 -->
+
+
+<div class="row">
+
+  <section class="col-lg-7 text-center">
+
+    <a class="btn btn-default" data-toggle="modal" data-target="#myModal_EGRN" style="font-weight: bold;">
+      <span class="glyphicon glyphicon-zoom-in" aria-hidden="true"></span> ВЫПИСКА ИЗ ЕГРН<br>
+      <img src="img/egrn-online-small_pic.png" alt="Образец Выписки из ЕГРН" class="img-responsive img-thumbnail center-block">
+    </a>
+
+  </section>
+
+
+  <br class="hidden-lg">
+  <br class="hidden-lg">
+
+
+  <section class="col-lg-5 text-center">
+
+    <a class="btn btn-default" data-toggle="modal" data-target="#myModal_History" style="font-weight: bold;">
+      <span class="glyphicon glyphicon-zoom-in" aria-hidden="true"></span> ВЫПИСКА <span class="hidden-xs">ИЗ ЕГРН</span> О ПЕРЕХОДЕ ПРАВ<br>
+      <img src="img/egrn-perehod-online-small.png" alt="Образец Выписки из ЕГРН о переходе прав" class="img-responsive img-thumbnail center-block">
+    </a>
+
+  </section>
+
+
+
+
+
+</div> <!-- row 5 -->
+
+
+
+
+
+<div class="row">
+
+  <section class="col-lg-12" style="padding-top: 40px;">
+    <h2 class="text-center">Способы оплаты</h2>
+    <br>
+  </section>
+
+</div>
+
+
+<div class="row">
+
+  <section class="col-lg-12">
+    <img src="img/paying.jpg" width="350" height="153" alt="Способы оплаты выписки из ЕГРН" class=" img-thumbnail img-responsive center-block" />
+
+  </section>
+
+</div>
+
+<br />
+
+
+<div class="row">
+
+  <section class="col-lg-12" style="padding-top: 40px;">
+    <h2 class="text-center">Схема работы сервиса</h2>
+    <br>
+  </section>
+
+</div>
+
+
+
+
+<div class="row">
+  <div class="col-lg-3">
+
+    <div class="alert alert-dismissible alert-info">
+
+      <div class="text-center" style="font-size: 150%">
+        1. <span class="glyphicon glyphicon-search"></span>
+
+      </div>
+
+      <div class="text-center">
+        Вы находите объект недвижимости
+
+        <div class="visible-lg"><br></div>
+      </div>
+
+
+
+    </div>
+
+  </div>
+
+  <div class="col-lg-3">
+    <div class="alert alert-dismissible alert-info">
+      <div class="text-center" style="font-size: 150%">
+        2. <span class="glyphicon glyphicon-credit-card"></span>
+      </div>
+      <div class="text-center">
+        Заказываете и оплачиваете электронный документ
+        <div class="visible-lg"><br></div>
+      </div>
+    </div>
+
+
+  </div>
+
+  <div class="col-lg-3">
+
+    <div class="alert alert-dismissible alert-info">
+
+      <div class="text-center" style="font-size: 150%">
+        3. <span class="glyphicon glyphicon-save-file"></span>
+      </div>
+      <div class="text-center">
+        Cервис автоматически заказывает Онлайн выписку из ЕГРН в Росреестре
+      </div>
+
+
+
+
+
+    </div>
+
+  </div>
+
+  <div class="col-lg-3">
+
+    <div class="alert alert-dismissible alert-success">
+      <div class="text-center" style="font-size: 150%">
+        4. <span class="glyphicon glyphicon-ok-sign"></span>
+      </div>
+      <div class="text-center">
+        Вы получаете Электронную выписку из ЕГРН на Вашу электронную почту
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+  </div>
+  <!-- content container -->
+
+
+
+  <hr />
+<footer class="container" style="height: 40px;">
+  <p class="text-right">
+
+
+
+
+    Услуга оказывается сервисом «Росреестр ИНФО» -
+    2020 г.
+    <br>
+    По любым вопросам:
+    <strong>vipiski@rosreestr-info.ru</strong> 
+
+    <br><br>
+  </p>
+
+</footer>
+
+
+
+
+  <!-- Модальные окна -->
+
+  <!-- EMAIL MODAL -->
+<div class="modal fade" id="okModal" tabindex="-1" role="dialog" aria-labelledby="okModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title text-center">
+          <span class="glyphicon glyphicon-info-sign"></span>
+          Спасибо за Ваш заказ!</h4>
+      </div>
+      <div class="modal-body" style="margin: 0px; padding: 0px; font-size: 110%;">
+
+        <div class="row">
+
+
+          <div class="col-lg-12">
+
+
+
+
+
+
+            <div class="alert alert-info" style="border-radius: 0px; padding-top: 30px; padding-bottom: 30px; margin-bottom: 0px;">
+
+
+              <p>
+                На Ваш email: <abbr title="Ваш email"><strong><span id="client_email_output"></span></strong></abbr>
+                мы отправили письмо с ссылкой для оплаты заказа.
+              </p>
+
+              <p>
+                После оплаты, в течение
+                <abbr title="Время доставки выписки"><strong> <span class="glyphicon glyphicon-time"></span>
+                    от 1 часа до 3 раб. дней</strong></abbr>, на этот Email мы вышлем Вам информационный документ.
+              </p>
+
+              <p id="sms_info" style="display: none;">
+                На номер:
+                <abbr title="Ваш моб. телефон"><strong><span class="glyphicon glyphicon-phone"></span> <span id="client_phone_output"></span> </strong></abbr> мы отправим СМС уведомление, когда отправим Вам выписку.
+              </p>
+
+
+
+            </div>
+
+
+
+
+
+          </div>
+
+
+        </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="modal-footer">
+
+        <div class="row">
+          <div class="col-lg-12 text-center">
+
+            <button id="ok_button" type="button" class="btn btn-warning" data-dismiss="modal"> Ок </button>
+
+          </div>
+
+
+
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!--Модальное окно ЗАКАЗА-->
+
+<div class="modal fade" id="orderModal" tabindex="-1" role="dialog" aria-labelledby="orderModal" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title text-center">
+          <strong><i class="fa fa-building" aria-hidden="true"></i>
+            Объект Недвижимости: </strong>
+        </h4>
+      </div>
+      <div class="modal-body" id="" style="margin:0px; padding:0px;">
+
+        <div class='row'>
+          <div class='col-xs-12'>
+            <div class='well' style='border-radius:0px; border-bottom: 1px solid #999; border-top: 1px solid #999;'>
+              <table class='table dialog-table table-condensed ' style='margin:0px;'>
+                <tbody>
+                  <tr>
+                    <td><strong> Объект:</strong> </td>
+                    <td id='object_name_cell'>
+                      Квартира
+                    </td>
+                  </tr>
+                  <tr>
+                    <td> <strong>Адрес: </strong></td>
+                    <td id='object_address_cell'>
+                      Грина дом 10, квартира 56
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td> <strong>Площадь:</strong> </td>
+                    <td id='object_m2_cell'>
+
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td> <strong>Номер:</strong> </td>
+                    <td id='object_number_cell'>
+
+                    </td>
+                  </tr>
+
+                </tbody>
+              </table>
+
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+        <div class='row'>
+          <div class='col-xs-12' id='h3_for_change'>
+
+            <h3 class=' text-primary text-center'>На этот объект можно заказать электронные выписки: </h3>
+            <hr>
+
+          </div>
+        </div>
+
+        <div class='row'>
+          <div id='div_for_change' class='col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1'>
+
+
+
+
+
+            <!-- Здесь 3 кнопки -->
+            <div class='form-group'>
+              <button id='order_button' class='btn btn-success btn-block order_btns' data-toggle='modal' data-target='#emailModal' value='1'>
+                <i class="fa fa-file" aria-hidden="true"></i>
+
+                Выписка из ЕГРН - 200 <i class="fa fa-rub" aria-hidden="true"></i>
+
+              </button>
+            </div>
+            <div class='form-group'>
+              <button id='order_button2' class='btn btn-success btn-block order_btns' data-toggle='modal' data-target='#emailModal' value='2'>
+                <i class="fa fa-file" aria-hidden="true"></i>
+
+                Выписка о Переходе прав - 200 <i class="fa fa-rub" aria-hidden="true"></i></button>
+            </div>
+
+            <div class='form-group'>
+
+              <button id='order_button3' class='btn btn-info btn-block order_btns' data-toggle='modal' data-target='#emailModal' value='3'>
+                <!--               <i class="fa fa-files-o" aria-hidden="true"></i>-->
+
+                Две выписки за 350 <i class="fa fa-rub" aria-hidden="true"></i></button>
+
+            </div><br>
+
+          </div>
+
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- EMAIL MODAL -->
+<div class="modal fade" id="emailModal" tabindex="-1" role="dialog" aria-labelledby="myEmailModal" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title text-center" id="order_header">Заказ: </h4>
+      </div>
+      <div id="email_modal_body" class="modal-body" style="margin: 0px 20px 0px 20px;">
+
+
+        <div class="row">
+          <section class="col-xs-12">
+
+            <form id="email_form" class="form-horizontal" method="post">
+
+              <fieldset>
+
+                <div class="form-group" id="email_form_group">
+
+                  <div class="col-xs-12">
+                    <label for="email_from_client" class="control-label">Введите ваш Email:</label>
+                  </div>
+                  <div class="col-xs-12">
+                    <input type="text" class="form-control" id="email_from_client" name="email_from_client" placeholder="Email">
+                  </div>
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+                <div class="alert alert-info">
+                  <p><span class=" glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+                    На этот Email мы отправим Вам электронную выписку.<br>
+                    <span class="glyphicon glyphicon-time" aria-hidden="true"></span> Ориентировочное время доставки: от 1 часа до 3 раб. дней *
+
+                    <br>
+
+                    <span style="font-size:90%;"> * Время доставки зависит от загруженности серверов Росреестра.</span>
+                  </p>
+                </div>
+
+
+
+                <div class="form-group text-center">
+
+                  <div class="col-xs-12 text-center">
+
+
+                    <div class="checkbox">
+                      <input type="checkbox" data-toggle="#phoneInfo" name="showPhone" id="showPhone" class="styled" autocomplete="off" value="yes">
+                      <label for="showPhone">
+                        Уведомить меня о готовности<br class="visible-xs">
+                        (ПО&nbsp;<span class="glyphicon glyphicon-phone"></span>СМС&nbsp;БЕСПЛАТНО)
+                      </label>
+                    </div>
+
+
+                  </div>
+                </div>
+
+
+
+                <div id="phoneInfo" style="display: none;">
+                  <div class="form-group">
+                    <div class="col-xs-12">
+                      <label for="phone_from_client" class="control-label text-left">Ваш моб. телефон:</label>
+                    </div>
+                    <div class="col-xs-12">
+                      <input type="text" class="form-control" id="phone_from_client" name="phone_from_client" placeholder="8 (000) 000-0000" maxlength="16">
+                    </div>
+
+                  </div>
+
+                </div>
+
+
+
+                <div class="form-group">
+
+                  <div class="col-xs-12 text-center">
+                    <button type="submit" id="submit_pay" class="btn btn-success btn-block">
+                      <i class="fa fa-credit-card-alt" aria-hidden="true"></i>
+                      ПЕРЕЙТИ К ОПЛАТЕ
+                    </button>
+
+
+                    <button id="submit_wait" class="btn btn-default btn-block" disabled="disabled" style="display: none"><i class="fa fa-spinner fa-spin"></i> Пожалуйста, подождите
+                    </button>
+
+
+
+                  </div>
+                </div>
+
+
+
+
+              </fieldset>
+
+
+
+
+
+            </form>
+
+
+
+          </section>
+        </div>
+
+
+
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  <!-- Modal -->
+<div class="modal fade" id="myModal_EGRN" tabindex="-1" role="dialog" aria-labelledby="myModal_EGRN">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title text-center">Образец электронной выписки из ЕГРН</h4>
+      </div>
+      <div class="modal-body text-center img-responsive">
+      <img src="img/egrn-online-big.png" alt="Образец электронной выписки из ЕГРН" class="img-responsive center-block">
+      
+      
+            
+      
+      
+      
+      
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+  <div class="modal fade" id="myModal_History" tabindex="-1" role="dialog" aria-labelledby="myModal_History">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title text-center">Выписка из ЕГРН о переходе прав</h4>
+      </div>
+      <div class="modal-body text-center">
+      <img src="img/egrn-perehod-online-big.png" alt="Образец выписки из ЕГРН о переходе прав"  class="img-responsive center-block"></div>
+      
+    </div>
+  </div>
+</div>
+
+  <!-- Small modal О Выписке ЕГРН -->
+<div class="modal fade" id="about_egrn" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<h4 class="text-center"> О выписке из ЕГРН</h4>
+      </div>
+      <div class="modal-body">
+<p style="text-align: justify">C 1 января 2017 года вступил в действие новый федеральный закон (218-ФЗ).</p>
+
+<p style="text-align: justify">Вместо выписки из ЕГРП и кадастрового паспорта, Росреестр ввел один документ – Выписку из ЕГРН.</p>
+          
+<p style="text-align: justify">Новая выписка из ЕГРН (из Единого государственного реестра недвижимости) содержит в себе информацию об основных характеристиках из кадастра, а также информацию о зарегистрированных правах и обременениях на объект недвижимости.</p>
+
+
+      </div>
+      <div class="modal-footer">
+          <div class="text-center">
+        <button type="button" class="btn btn-warning" data-dismiss="modal">Ок</button>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>  
+  <!-- Small modal О Выписке ЕГРН -->
+<div class="modal fade" id="about_delivery" tabindex="-1" role="dialog" aria-labelledby="myModalDeliveryLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<h4 class="text-center"> Готовность Электронных выписок из Росреестра</h4>
+      </div>
+      <div class="modal-body">
+<p style="text-align: justify">После оплаты выписок, мы моментально, в автоматическом режиме, отправляем Ваш заказ в Росреестр.
+</p>
+
+          <p style="text-align: justify">Росреестр в свою очередь, обрабатывает заказ по мере загруженности своих серверов, если сервера не слишком загружены, обработка занимает <strong>от 1 часа</strong>, если загруженность сильная, то обработка и получение электронных выписок может занять <strong>до 3 рабочих дней</strong>.</p>
+          
+<p style="text-align: justify">Как-то повлиять на ускорение запросов получения электронных выписок невозможно. Росреестр все запросы электронных выписок обрабатывает в автоматическом режиме.</p>          
+          
+          
+
+
+      </div>
+      <div class="modal-footer">
+          <div class="text-center">
+        <button type="button" class="btn btn-warning" data-dismiss="modal">Ок</button>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- Small modal О Выписке ЕГРН -->
+<div class="modal fade" id="search" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+    <form id="Search_Application_Form" method="post" action="inc/search_application_ajax.php" >
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title text-center" id="myModalLabel">Заявка на поиск объекта</h4>
+      </div>
+      <div class="modal-body">
+      
+          
+          
+       <div style="margin: 5px 20px 5px 20px;">
+
+           
+           
+           
+    <div class="form-group">
+      <label for="search_object_type" class="control-label">Что вы ищете:</label>
+        <div class="selectContainer">
+        <select class="form-control" id="search_object_type" name="search_object_type" data-style="btn-primary">
+          <option value="">Не выбрано</option>    
+          <option value="Квартира">Квартира</option>
+          <option value="Комната">Комната</option>
+
+          <option value="Нежилое помещение">Нежилое помещение</option>
+          <option value="Жилой дом">Жилой дом</option>
+          <option value="Здание (нежилое)">Здание (нежилое)</option>
+          <option value="Земельный участок">Земельный участок</option>
+        </select>
+        </div>
+        
+    </div>
+                  
+    
+    <div class="form-group">
+      <label for="search_address" class="control-label">Адрес объекта <span class="hidden-xs">(в свободной форме):</span></label>
+        <textarea name="search_address" class="form-control" rows="3" id="search_address"></textarea>
+        
+    </div>       
+           
+  
+    <div class="form-group">
+      <label for="search_email" class="control-label">Ваш email:</label>
+      
+        <input type="text" name="search_email" class="form-control" id="search_email" placeholder="Ваш email" >
+     
+    </div>
+           
+           
+     <div class="form-group">
+      <label for="search_phone" class="control-label">Ваш  телефон:</label>
+      
+      
+         
+         <input type="tel" name="search_phone" class="form-control" id="search_phone" value="" placeholder="8 (000) 000-00-00" maxlength="17" >
+         
+         
+         
+     
+    </div>
+         
+          </div>
+         
+   
+ 
+  
+          
+          
+          
+          
+          
+
+      </div>
+      <div class="modal-footer">
+          <div class="text-center">
+        <button type="submit" class="btn btn-success">Отправить</button>
+              
+              
+            
+          </div>
+      </div>
+        </form> 
+    </div>
+  </div>
+</div>
+  <!-- Small modal О Выписке ЕГРН -->
+<div class="modal fade" id="search_ok" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-sm" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<h4 class="text-center">Спасибо!</h4>
+      </div>
+      <div class="modal-body">
+      <p style="text-align: center">Ваша заявка принята.</p>
+
+<p style="text-align: center">Мы свяжемся с Вами в ближайшее время.</p>
+
+
+      </div>
+      <div class="modal-footer">
+          <div class="text-center">
+        <button type="button" class="btn btn-warning" data-dismiss="modal">Ок</button>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <!--
+<script src="js/jquery-2.1.4.min.js"></script>
+-->
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <!-- jQuery-Mask-Plugin  -->
+  <script type="text/javascript" src="js/jQuery-Mask-Plugin/dist/jquery.mask.min.js"></script>
+
+
+  <!--Form Validation-->
+  <script type="text/javascript" src="js/formvalidation-dist-v0.8.1/dist/js/formValidation.min.js"></script>
+
+  <script type="text/javascript" src="js/formvalidation-dist-v0.8.1/dist/js/framework/bootstrap.min.js"></script>
+
+  <script type="text/javascript" src="js/formvalidation-dist-v0.8.1/dist/js/language/ru_RU.js"></script>
+
+
+
+  <!--[if lt IE 10]>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-ajaxtransport-xdomainrequest/1.0.1/jquery.xdomainrequest.min.js"></script>
+<![endif]-->
+
+
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/suggestions-jquery@18.11.1/dist/js/jquery.suggestions.min.js"></script>
+
+
+
+
+
+
+
+
+  <script type="text/javascript" src="js/for_address3.js?version=5"></script>
+
+
+
+
+
+
+</body>
+
+</html>
