@@ -3,6 +3,7 @@
 	//echo phpinfo(); die;
 
 	if($_SERVER['REQUEST_METHOD']=='POST'){
+		// Распечатываем массив 
 		echo "<pre>";
 		print_r($_FILES);
 		echo "</pre>";
