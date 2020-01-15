@@ -11,6 +11,7 @@
 		$n = $_FILES["userfile"]["name"];
 		$t = $_FILES["userfile"]["tmp_name"];
 		move_uploaded_file($t, "downloads/".$n);
+		// Заканчиваем распечатывать массив
 		
 	}
 ?>
