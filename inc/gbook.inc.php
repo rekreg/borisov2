@@ -1,13 +1,69 @@
 <?php
 /* Основные настройки */
 
+const DB_HOST = "localhost";
+const DB_USER = "root";
+const DB_PASS = "zzxxcc";
+const DB_NAME = "gbook";
+
+
+$link = mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_NAME) or die(mysqli_connect_error());
+
 /* Основные настройки */
 
 /* Сохранение записи в БД */
 
+function clean_data($str, $link){
+	return mysqli_real_escape_string($link, trim(strip_tags($str)));
+}
+
+
+if($_SERVER['REQUEST_METHOD'] == 'POST'){
+	
+	$name = clean_data($_POST['name'], $link);
+	$email = clean_data($_POST['email'], $link);
+	$msg = clean_data($_POST['msg'], $link);
+	
+	
+	// 2. Запрос к базе данных
+	$sql = "INSERT INTO msgs (name, email, msg) VALUES ('{$name}', '{$email}', '{$msg}')";
+	$result = mysqli_query($link, $sql);
+
+	// Отслеживаем ошибки запроса
+	if( !$result ):
+		echo "mysqli_errno: ". mysqli_errno($link). "<br>".
+		"mysqli_error: ".	
+		mysqli_error($link). "<br>";
+	else: 
+		//echo "2. Вставили данные <br>";
+	endif;
+	
+	
+	
+} // if($_SERVER['REQUEST_METHOD'] == 'POST')
+
 /* Сохранение записи в БД */
 
 /* Удаление записи из БД */
+
+if($_SERVER['REQUEST_METHOD'] == 'GET' && isset($_GET['del'])) {
+	
+	$del = clean_data($_GET['del'], $link);
+	
+	$sql = "DELETE FROM msgs WHERE id = {$del}";
+	$result = mysqli_query($link, $sql);
+
+	// Отслеживаем ошибки запроса
+	if( !$result ):
+		echo "mysqli_errno: ". mysqli_errno($link). "<br>".
+		"mysqli_error: ".	
+		mysqli_error($link). "<br>";
+	else: 
+		//echo "2. Удалили данные <br>";
+	endif;
+	
+}
+
 
 /* Удаление записи из БД */
 ?>
@@ -25,6 +81,50 @@ Email: <br /><input type="text" name="email" /><br />
 </form>
 <?php
 /* Вывод записей из БД */
+	
+	// 2. Запрос к базе данных
+	$sql = "SELECT id, name, email, msg, UNIX_TIMESTAMP(datetime) as dt FROM msgs ORDER BY id DESC";
+	$result = mysqli_query($link, $sql);
+
+	// Отслеживаем ошибки запроса
+	if( !$result ):
+		echo "mysqli_errno: ". mysqli_errno($link). "<br>".
+		"mysqli_error: ".	
+		mysqli_error($link). "<br>";
+	else: 
+		//echo "Выводим данные <br>";
+	endif;
+			
+			
+	$rows = mysqli_fetch_all($result, MYSQLI_ASSOC);
+		
+	
+	// Закрываем соединение
+	if(mysqli_close($link)):
+		//echo "Соединение c БД закрыто <br>";
+	endif;
+		
+			
+			
+	//// Выводим данные
+	$output = "<p style='color: hotpink'>Всего записей в гостевой книге: ".count($rows)."</p>";
+			
+	foreach($rows as $row):		
+		$output .= "<p>";
+		$output .= "<a href='mailto:".$row['email']."'>";
+		$output .= $row['name'];
+		$output .= "</a> ";
+		$output .= date("d-m-Y в h:i", $row['dt'])." написал(а)<br />";
+		$output .= $row['msg'];
+		$output .= "</p>";
+		$output .= "<p align='right'>";
+		$output .= "<a href='./index.php?id=gbook&del=".$row['id']."'>";
+		$output .= "Удалить";
+		$output .= "</a>";
+		$output .= "</p>";
+	endforeach;
+	
+	echo $output;
 
 /* Вывод записей из БД */
 ?>
