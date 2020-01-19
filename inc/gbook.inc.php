@@ -11,18 +11,19 @@ $link = mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_NAME) or die(mysqli_connect
 
 /* Основные настройки */
 
-/* Сохранение записи в БД */
-
 function clean_data($str, $link){
-	return mysqli_real_escape_string($link, trim(strip_tags($str)));
+	global $link;
+	$str = trim(strip_tags($str));
+	return mysqli_real_escape_string($link, $str);
 }
 
+/* Сохранение записи в БД */
 
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
 	
-	$name = clean_data($_POST['name'], $link);
-	$email = clean_data($_POST['email'], $link);
-	$msg = clean_data($_POST['msg'], $link);
+	$name = clean_data($_POST['name']);
+	$email = clean_data($_POST['email']);
+	$msg = clean_data($_POST['msg']);
 	
 	
 	// 2. Запрос к базе данных
