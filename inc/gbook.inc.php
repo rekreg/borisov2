@@ -11,7 +11,7 @@ $link = mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_NAME) or die(mysqli_connect
 
 /* Основные настройки */
 
-function clean_data($str, $link){
+function clean_data($str){
 	global $link;
 	$str = trim(strip_tags($str));
 	return mysqli_real_escape_string($link, $str);
@@ -28,16 +28,11 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 	
 	// 2. Запрос к базе данных
 	$sql = "INSERT INTO msgs (name, email, msg) VALUES ('{$name}', '{$email}', '{$msg}')";
-	$result = mysqli_query($link, $sql);
+	$result = mysqli_query($link, $sql) or die(mysqli_error($link));
 
-	// Отслеживаем ошибки запроса
-	if( !$result ):
-		echo "mysqli_errno: ". mysqli_errno($link). "<br>".
-		"mysqli_error: ".	
-		mysqli_error($link). "<br>";
-	else: 
-		//echo "2. Вставили данные <br>";
-	endif;
+
+	header("Location: ". $_SERVER["REQUEST_URI"]);
+	exit;
 	
 	
 	
@@ -49,19 +44,14 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 
 if($_SERVER['REQUEST_METHOD'] == 'GET' && isset($_GET['del'])) {
 	
-	$del = clean_data($_GET['del'], $link);
+	$id = abs((int)$_GET["del"]);
 	
-	$sql = "DELETE FROM msgs WHERE id = {$del}";
-	$result = mysqli_query($link, $sql);
+	if($id){
+		$sql = "DELETE FROM msgs WHERE id = {$id}";
+		$result = mysqli_query($link, $sql) or die(mysqli_error($link));
+	}
+	
 
-	// Отслеживаем ошибки запроса
-	if( !$result ):
-		echo "mysqli_errno: ". mysqli_errno($link). "<br>".
-		"mysqli_error: ".	
-		mysqli_error($link). "<br>";
-	else: 
-		//echo "2. Удалили данные <br>";
-	endif;
 	
 }
 
@@ -108,7 +98,7 @@ Email: <br /><input type="text" name="email" /><br />
 			
 			
 	//// Выводим данные
-	$output = "<p style='color: hotpink'>Всего записей в гостевой книге: ".count($rows)."</p>";
+	$output = "<p style='color: hotpink'>Всего записей в гостевой книге: ".mysqli_num_rows($result)."</p>";
 			
 	foreach($rows as $row):		
 		$output .= "<p>";
@@ -116,7 +106,7 @@ Email: <br /><input type="text" name="email" /><br />
 		$output .= $row['name'];
 		$output .= "</a> ";
 		$output .= date("d-m-Y в h:i", $row['dt'])." написал(а)<br />";
-		$output .= $row['msg'];
+		$output .= nl2br($row['msg']) ;
 		$output .= "</p>";
 		$output .= "<p align='right'>";
 		$output .= "<a href='./index.php?id=gbook&del=".$row['id']."'>";
