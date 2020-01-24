@@ -13,6 +13,7 @@ $price = clear_int($_POST['price']) ?? 0;
 
 if(!addItemToCatalog($title, $author, $pubyear, $price)): 
   echo 'Произошла ошибка при добавлении товара в каталог';
+  echo "Мы в полной Ж";
 else:
   header("Location: add2cat.php"); 
   exit;
